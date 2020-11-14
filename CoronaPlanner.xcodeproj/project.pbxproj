@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,16 @@
 		0BC64ED3255FFFF60092BD3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BC64ED2255FFFF60092BD3D /* Assets.xcassets */; };
 		0BC64ED6255FFFF60092BD3D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BC64ED5255FFFF60092BD3D /* Preview Assets.xcassets */; };
 		0BC64ED9255FFFF60092BD3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BC64ED7255FFFF60092BD3D /* LaunchScreen.storyboard */; };
+		0BC64EE22560016E0092BD3D /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC64EE12560016E0092BD3D /* Country.swift */; };
+		0BC64EE62560213C0092BD3D /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 0BC64EE52560213C0092BD3D /* SwiftSoup */; };
+		0BC64EE9256021610092BD3D /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC64EE8256021610092BD3D /* Parser.swift */; };
+		0BC64EFD25603FEA0092BD3D /* GenerateDeclaration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC64EF825603FE70092BD3D /* GenerateDeclaration.swift */; };
+		0BC64EFE25603FEA0092BD3D /* ms.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BC64EF925603FE70092BD3D /* ms.png */; };
+		0BC64EFF25603FEA0092BD3D /* Duty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC64EFA25603FE80092BD3D /* Duty.swift */; };
+		0BC64F0025603FEA0092BD3D /* YesIdea.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BC64EFB25603FEA0092BD3D /* YesIdea.png */; };
+		0BC64F0125603FEA0092BD3D /* NoIdea.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BC64EFC25603FEA0092BD3D /* NoIdea.png */; };
+		0BC64F05256041AB0092BD3D /* TPPDF in Frameworks */ = {isa = PBXBuildFile; productRef = 0BC64F04256041AB0092BD3D /* TPPDF */; };
+		0BC64F082560590B0092BD3D /* ffffff.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BC64F072560590A0092BD3D /* ffffff.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,14 @@
 		0BC64ED5255FFFF60092BD3D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0BC64ED8255FFFF60092BD3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0BC64EDA255FFFF60092BD3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BC64EE12560016E0092BD3D /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		0BC64EE8256021610092BD3D /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		0BC64EF825603FE70092BD3D /* GenerateDeclaration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenerateDeclaration.swift; sourceTree = "<group>"; };
+		0BC64EF925603FE70092BD3D /* ms.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ms.png; sourceTree = "<group>"; };
+		0BC64EFA25603FE80092BD3D /* Duty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Duty.swift; sourceTree = "<group>"; };
+		0BC64EFB25603FEA0092BD3D /* YesIdea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YesIdea.png; sourceTree = "<group>"; };
+		0BC64EFC25603FEA0092BD3D /* NoIdea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NoIdea.png; sourceTree = "<group>"; };
+		0BC64F072560590A0092BD3D /* ffffff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ffffff.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BC64EE62560213C0092BD3D /* SwiftSoup in Frameworks */,
+				0BC64F05256041AB0092BD3D /* TPPDF in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,10 +79,18 @@
 				0BC64ECC255FFFF10092BD3D /* AppDelegate.swift */,
 				0BC64ECE255FFFF10092BD3D /* SceneDelegate.swift */,
 				0BC64ED0255FFFF10092BD3D /* ContentView.swift */,
+				0BC64F072560590A0092BD3D /* ffffff.png */,
+				0BC64EFA25603FE80092BD3D /* Duty.swift */,
+				0BC64EF825603FE70092BD3D /* GenerateDeclaration.swift */,
+				0BC64EF925603FE70092BD3D /* ms.png */,
+				0BC64EFC25603FEA0092BD3D /* NoIdea.png */,
+				0BC64EFB25603FEA0092BD3D /* YesIdea.png */,
 				0BC64ED2255FFFF60092BD3D /* Assets.xcassets */,
 				0BC64ED7255FFFF60092BD3D /* LaunchScreen.storyboard */,
 				0BC64EDA255FFFF60092BD3D /* Info.plist */,
 				0BC64ED4255FFFF60092BD3D /* Preview Content */,
+				0BC64EE12560016E0092BD3D /* Country.swift */,
+				0BC64EE8256021610092BD3D /* Parser.swift */,
 			);
 			path = CoronaPlanner;
 			sourceTree = "<group>";
@@ -91,6 +119,10 @@
 			dependencies = (
 			);
 			name = CoronaPlanner;
+			packageProductDependencies = (
+				0BC64EE52560213C0092BD3D /* SwiftSoup */,
+				0BC64F04256041AB0092BD3D /* TPPDF */,
+			);
 			productName = CoronaPlanner;
 			productReference = 0BC64EC9255FFFF10092BD3D /* CoronaPlanner.app */;
 			productType = "com.apple.product-type.application";
@@ -118,6 +150,10 @@
 				Base,
 			);
 			mainGroup = 0BC64EC0255FFFF10092BD3D;
+			packageReferences = (
+				0BC64EE42560213C0092BD3D /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+				0BC64F03256041AB0092BD3D /* XCRemoteSwiftPackageReference "TPPDF" */,
+			);
 			productRefGroup = 0BC64ECA255FFFF10092BD3D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -133,6 +169,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BC64ED9255FFFF60092BD3D /* LaunchScreen.storyboard in Resources */,
+				0BC64F0025603FEA0092BD3D /* YesIdea.png in Resources */,
+				0BC64F082560590B0092BD3D /* ffffff.png in Resources */,
+				0BC64EFE25603FEA0092BD3D /* ms.png in Resources */,
+				0BC64F0125603FEA0092BD3D /* NoIdea.png in Resources */,
 				0BC64ED6255FFFF60092BD3D /* Preview Assets.xcassets in Resources */,
 				0BC64ED3255FFFF60092BD3D /* Assets.xcassets in Resources */,
 			);
@@ -145,7 +185,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BC64EFF25603FEA0092BD3D /* Duty.swift in Sources */,
+				0BC64EE22560016E0092BD3D /* Country.swift in Sources */,
+				0BC64EFD25603FEA0092BD3D /* GenerateDeclaration.swift in Sources */,
 				0BC64ECD255FFFF10092BD3D /* AppDelegate.swift in Sources */,
+				0BC64EE9256021610092BD3D /* Parser.swift in Sources */,
 				0BC64ECF255FFFF10092BD3D /* SceneDelegate.swift in Sources */,
 				0BC64ED1255FFFF10092BD3D /* ContentView.swift in Sources */,
 			);
@@ -345,6 +389,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0BC64EE42560213C0092BD3D /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.2;
+			};
+		};
+		0BC64F03256041AB0092BD3D /* XCRemoteSwiftPackageReference "TPPDF" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/techprimate/TPPDF";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0BC64EE52560213C0092BD3D /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0BC64EE42560213C0092BD3D /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+		0BC64F04256041AB0092BD3D /* TPPDF */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0BC64F03256041AB0092BD3D /* XCRemoteSwiftPackageReference "TPPDF" */;
+			productName = TPPDF;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0BC64EC1255FFFF10092BD3D /* Project object */;
 }
